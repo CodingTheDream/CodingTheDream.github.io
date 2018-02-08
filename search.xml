@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-    
-    <entry>
-      <title><![CDATA[通过C#的反射机制，通过控件名获取控件]]></title>
-      <url>/2018/02/08/ReflectionToGetName/</url>
-      <content type="html"><![CDATA[<p>可以通过下面这种方式通过控件名获取控件</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">TextBox textbox = (TextBox)this.GetType().GetField(<span class="string">"Textbox的名称"</span>, </span><br><span class="line">System.Reflection.BindingFlags.NonPublic | </span><br><span class="line">System.Reflection.BindingFlags.Instance | </span><br><span class="line">System.Reflection.BindingFlags.IgnoreCase).GetValue(this);</span><br></pre></td></tr></table></figure>]]></content>
-      
-        <categories>
-            
-            <category> C# </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> C# </tag>
-            
-            <tag> 反射 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-  
-  
+<search>
+  <entry>
+    <title><![CDATA[通过C#的反射机制，通过控件名获取控件]]></title>
+    <url>%2F2018%2F02%2F08%2FReflectionToGetName%2F</url>
+    <content type="text"><![CDATA[可以通过下面这种方式通过控件名获取控件 1234TextBox textbox = (TextBox)this.GetType().GetField("Textbox的名称", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.IgnoreCase).GetValue(this);]]></content>
+      <categories>
+        <category>C#</category>
+      </categories>
+      <tags>
+        <tag>C#</tag>
+        <tag>反射</tag>
+      </tags>
+  </entry>
 </search>
