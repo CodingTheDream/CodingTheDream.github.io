@@ -7,11 +7,10 @@
     </url>
 
     <url>
-        <loc>http://yoursite.com/2018/02/08/ReflectionToGetName/</loc>
+        <loc>http://yoursite.com/categories/C/</loc>
         <lastmod>2018-02-08T02:44:53.600Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>
