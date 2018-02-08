@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-02-08T02:44:53.600Z</updated>
+  <updated>2018-02-08T05:22:01.675Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/02/08/ReflectionToGetName/"/>
     <id>http://yoursite.com/2018/02/08/ReflectionToGetName/</id>
     <published>2018-02-08T02:21:10.000Z</published>
-    <updated>2018-02-08T02:44:53.600Z</updated>
+    <updated>2018-02-08T05:22:01.675Z</updated>
     
     <content type="html"><![CDATA[<p>可以通过下面这种方式通过控件名获取控件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">TextBox textbox = (TextBox)this.GetType().GetField(<span class="string">"Textbox的名称"</span>, </span><br><span class="line">System.Reflection.BindingFlags.NonPublic | </span><br><span class="line">System.Reflection.BindingFlags.Instance | </span><br><span class="line">System.Reflection.BindingFlags.IgnoreCase).GetValue(this);</span><br></pre></td></tr></table></figure>]]></content>
     
